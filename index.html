@@ -4,32 +4,29 @@
         <style media="screen">
             body {
                 margin: 0;
-                border: 10px solid darkslategray;
+                border: 10px solid darkslategrey;
             }
             img {
                 max-width: 100%;
                 vertical-align: top;
             }
-            img#responsiveimg {
+            img#responsive {
                 display: none;
             }
             @media screen and (max-width: 768px) {
-                img#responsiveimg {
+                img#responsive {
                     display: block;
+                }
+                img {
+                    display: none;
                 }
             }
         </style>
     </head>
 
     <body>
-        <img src="img/invie-responsive.png" id="responsiveimg">
-        <img src="img/header.jpg">
-        <img src="img/hero.jpg">
-        <img src="img/acustica_.jpg">
-        <img src="img/clasica.jpg">
+        <img src="img/invie-responsive.png" id="responsive">
+        <img src="img/nueva-version.jpg">
     </body>
 
-    <footer>
-        <img src="img/footer.jpg">
-    </footer>
 </html>
