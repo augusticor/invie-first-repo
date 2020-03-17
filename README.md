@@ -1,4 +1,4 @@
-# invie-first-repo
-First repository, learning GitHub
+# invie
+Las guitarras más locas
 
-Index de las guitarras inviesibles :/
+http://leonidasesteban.github.io/invie-responsive/
